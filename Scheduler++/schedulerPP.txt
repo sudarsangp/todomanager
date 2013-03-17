@@ -1,0 +1,21 @@
+2
+vacation
+false
+0
+0
+not-a-date-time
+not-a-date-time
+3
+go helloshop
+false
+2
+0
+2012-Dec-21 10:00:00
+2012-Dec-21 14:00:00
+4
+asdk
+false
+0
+0
+not-a-date-time
+not-a-date-time

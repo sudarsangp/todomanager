@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4AE4801E-4826-444D-B91B-83454251A199}</ProjectGuid>
+    <RootNamespace>SchedulerPlain</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)boost_1_51_0;$(IncludePath);;$(SolutionDir)gtest-1.6.0\include</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(SolutionDir)boost_1_51_0\stage\lib;$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Programming\Libraries\boost_1_51_0;$(IncludePath);;$(SolutionDir)gtest-1.6.0\include</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Programming\Libraries\boost_1_51_0\stage\lib;$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);gtestd.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CommandAdd.cpp" />
+    <ClCompile Include="CommandBase.cpp" />
+    <ClCompile Include="CommandClear.cpp" />
+    <ClCompile Include="CommandDelete.cpp" />
+    <ClCompile Include="CommandDone.cpp" />
+    <ClCompile Include="CommandEdit.cpp" />
+    <ClCompile Include="CommandFlag.cpp" />
+    <ClCompile Include="CommandList.cpp" />
+    <ClCompile Include="CommandSort.cpp" />
+    <ClCompile Include="CommandUndo.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="LogicAdd.cpp" />
+    <ClCompile Include="LogicBase.cpp" />
+    <ClCompile Include="LogicClear.cpp" />
+    <ClCompile Include="LogicDelete.cpp" />
+    <ClCompile Include="LogicDone.cpp" />
+    <ClCompile Include="LogicEdit.cpp" />
+    <ClCompile Include="LogicFlag.cpp" />
+    <ClCompile Include="LogicList.cpp" />
+    <ClCompile Include="LogicSort.cpp" />
+    <ClCompile Include="LogicTutorial.cpp" />
+    <ClCompile Include="LogicUndo.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PairDateTime.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="ParserAdd.cpp" />
+    <ClCompile Include="ParserBase.cpp" />
+    <ClCompile Include="ParserCatchAll.cpp" />
+    <ClCompile Include="ParserClear.cpp" />
+    <ClCompile Include="ParserDateTime.cpp" />
+    <ClCompile Include="ParserDelete.cpp" />
+    <ClCompile Include="ParserDone.cpp" />
+    <ClCompile Include="ParserEdit.cpp" />
+    <ClCompile Include="ParserExceptions.cpp" />
+    <ClCompile Include="ParserFlag.cpp" />
+    <ClCompile Include="ParserList.cpp" />
+    <ClCompile Include="ParserSort.cpp" />
+    <ClCompile Include="ParserUndo.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Writer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandAdd.h" />
+    <ClInclude Include="CommandBase.h" />
+    <ClInclude Include="CommandClear.h" />
+    <ClInclude Include="CommandDelete.h" />
+    <ClInclude Include="CommandDone.h" />
+    <ClInclude Include="CommandEdit.h" />
+    <ClInclude Include="CommandFlag.h" />
+    <ClInclude Include="CommandList.h" />
+    <ClInclude Include="CommandSort.h" />
+    <ClInclude Include="CommandUndo.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="Logic.h" />
+    <ClInclude Include="LogicAdd.h" />
+    <ClInclude Include="LogicBase.h" />
+    <ClInclude Include="LogicClear.h" />
+    <ClInclude Include="LogicDelete.h" />
+    <ClInclude Include="LogicDone.h" />
+    <ClInclude Include="LogicEdit.h" />
+    <ClInclude Include="LogicFlag.h" />
+    <ClInclude Include="LogicList.h" />
+    <ClInclude Include="LogicSort.h" />
+    <ClInclude Include="LogicTester.h" />
+    <ClInclude Include="LogicTutorial.h" />
+    <ClInclude Include="LogicUndo.h" />
+    <ClInclude Include="PairDateTime.h" />
+    <ClInclude Include="ParserAdd.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="ParserBase.h" />
+    <ClInclude Include="ParserCatchAll.h" />
+    <ClInclude Include="ParserClear.h" />
+    <ClInclude Include="ParserDateTime.h" />
+    <ClInclude Include="ParserDelete.h" />
+    <ClInclude Include="ParserDone.h" />
+    <ClInclude Include="ParserEdit.h" />
+    <ClInclude Include="ParserFlag.h" />
+    <ClInclude Include="ParserList.h" />
+    <ClInclude Include="ParserSort.h" />
+    <ClInclude Include="ParserUndo.h" />
+    <ClInclude Include="ParsingException.h" />
+    <ClInclude Include="SchedulerPPException.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="ParserTester.h" />
+    <ClInclude Include="Tester.h" />
+    <ClInclude Include="TutorialTester.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Writer.h" />
+    <ClInclude Include="WriterException.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

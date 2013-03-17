@@ -1,0 +1,127 @@
+﻿Build started 12/3/2012 12:25:15 PM gps.
+     1>Project "D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Scheduler++\Scheduler++.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Scheduler++.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc /Fp"Debug\Scheduler++.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Scheduler++\ObjectListView.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Scheduler++\ObjectListView.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp CommandAdd.cpp CommandBase.cpp CommandClear.cpp CommandDelete.cpp CommandDone.cpp CommandEdit.cpp CommandFlag.cpp CommandList.cpp CommandSort.cpp CommandUndo.cpp Data.cpp Display.cpp GUI.cpp Item.cpp Logic.cpp LogicAdd.cpp LogicBase.cpp LogicClear.cpp LogicDelete.cpp LogicDone.cpp LogicEdit.cpp LogicFlag.cpp LogicList.cpp LogicSort.cpp LogicTutorial.cpp LogicUndo.cpp PairDateTime.cpp Parser.cpp ParserAdd.cpp ParserBase.cpp ParserCatchAll.cpp ParserClear.cpp ParserDateTime.cpp ParserDelete.cpp ParserDone.cpp ParserEdit.cpp ParserExceptions.cpp ParserFlag.cpp ParserList.cpp ParserSort.cpp ParserUndo.cpp Scheduler++.cpp Task.cpp Writer.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         CommandAdd.cpp
+         CommandBase.cpp
+         CommandClear.cpp
+         CommandDelete.cpp
+         CommandDone.cpp
+         CommandEdit.cpp
+         CommandFlag.cpp
+         CommandList.cpp
+         CommandSort.cpp
+         CommandUndo.cpp
+         Data.cpp
+         Display.cpp
+         GUI.cpp
+         Item.cpp
+         Logic.cpp
+         LogicAdd.cpp
+         LogicBase.cpp
+         LogicClear.cpp
+         LogicDelete.cpp
+         Generating Code...
+         Compiling...
+         LogicDone.cpp
+         LogicEdit.cpp
+         LogicFlag.cpp
+         LogicList.cpp
+         LogicSort.cpp
+         LogicTutorial.cpp
+         LogicUndo.cpp
+         PairDateTime.cpp
+         Parser.cpp
+         ParserAdd.cpp
+         ParserBase.cpp
+         ParserCatchAll.cpp
+         ParserClear.cpp
+         ParserDateTime.cpp
+         ParserDelete.cpp
+         ParserDone.cpp
+         ParserEdit.cpp
+         ParserExceptions.cpp
+         ParserFlag.cpp
+         ParserList.cpp
+         Generating Code...
+         Compiling...
+         ParserSort.cpp
+         ParserUndo.cpp
+         Scheduler++.cpp
+         Task.cpp
+         Writer.cpp
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Windows\TEMP\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Scheduler++\ObjectListView.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile GUI.resX,Debug\Scheduler.GUI.resources
+         Processing resource file "GUI.resX" into "Debug\Scheduler.GUI.resources".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Debug\Scheduler++.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Scheduler.GUI.resources /MANIFEST /ManifestFile:"Debug\Scheduler++.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Debug\Scheduler++.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\CommandAdd.obj
+         Debug\CommandBase.obj
+         Debug\CommandClear.obj
+         Debug\CommandDelete.obj
+         Debug\CommandDone.obj
+         Debug\CommandEdit.obj
+         Debug\CommandFlag.obj
+         Debug\CommandList.obj
+         Debug\CommandSort.obj
+         Debug\CommandUndo.obj
+         Debug\Data.obj
+         Debug\Display.obj
+         Debug\GUI.obj
+         Debug\Item.obj
+         Debug\Logic.obj
+         Debug\LogicAdd.obj
+         Debug\LogicBase.obj
+         Debug\LogicClear.obj
+         Debug\LogicDelete.obj
+         Debug\LogicDone.obj
+         Debug\LogicEdit.obj
+         Debug\LogicFlag.obj
+         Debug\LogicList.obj
+         Debug\LogicSort.obj
+         Debug\LogicTutorial.obj
+         Debug\LogicUndo.obj
+         Debug\PairDateTime.obj
+         Debug\Parser.obj
+         Debug\ParserAdd.obj
+         Debug\ParserBase.obj
+         Debug\ParserCatchAll.obj
+         Debug\ParserClear.obj
+         Debug\ParserDateTime.obj
+         Debug\ParserDelete.obj
+         Debug\ParserDone.obj
+         Debug\ParserEdit.obj
+         Debug\ParserExceptions.obj
+         Debug\ParserFlag.obj
+         Debug\ParserList.obj
+         Debug\ParserSort.obj
+         Debug\ParserUndo.obj
+         Debug\Scheduler++.obj
+         Debug\stdafx.obj
+         Debug\Task.obj
+         Debug\Writer.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Scheduler++.vcxproj -> D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Debug\Scheduler++.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Debug\Scheduler++.exe;#1" /manifest Debug\Scheduler++.exe.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Scheduler++\ObjectListView.dll" to "D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Debug\ObjectListView.dll".
+       FinalizeBuildStatus:
+         Deleting file "Debug\Scheduler++.unsuccessfulbuild".
+         Touching "Debug\Scheduler++.lastbuildstate".
+     1>Done Building Project "D:\Year2\Semester 1\CS2103\Scheduler-mypart\final-randd\Scheduler++\Scheduler++.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:35.70
