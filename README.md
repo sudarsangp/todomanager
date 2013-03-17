@@ -7,7 +7,7 @@ Flexible command inputs with GUI and an interactive tutorial.
 
 Stack Used
 
-C++, ObjectListView
+C++, ObjectListView, Boost
 
 Team
 
